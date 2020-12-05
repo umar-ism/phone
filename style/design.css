@@ -1,0 +1,107 @@
+body {
+    padding-top: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    width: 310px;
+    height: 555px;
+    border: 3px solid black;
+    border-radius: 35px;
+}
+
+.cameras {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 55px;
+}
+
+.camera {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.voice {
+    width: 50px;
+    height: 8px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.screen {
+    width: 290px;
+    height: 490px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.window{
+    width: auto;
+    height: 490px;
+    z-index: 3; 
+    background-image: url("https://i.pinimg.com/736x/7b/90/a5/7b90a55a4e10b4759811091017a5119c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.window img {
+    width: 290px;
+    height: 490px;
+    border-radius: 15px;
+}
+
+.navigation-bar {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;  
+}
+.nav-bar {   
+    width: 150px;
+    height: 30px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation {
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-bar img {
+    width: 25px;
+    height: 15px;
+}
+
+.nav1 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+
+.full-exit {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.navigation button {
+    border: none;
+    background-color: white;
+}
